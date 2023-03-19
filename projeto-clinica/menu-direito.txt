@@ -1,0 +1,37 @@
+.menu-direito .telefone {
+    display: none;
+}
+
+.menu-direito .numero {
+    display: none;
+}
+
+.menu-direito {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-direito ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-direito .icone1:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+.menu-direito .icone1:hover .telefone {
+    display: block;
+}
+
+.menu-direito .icone2:hover .numero {
+    display: block;
+}

@@ -1,0 +1,107 @@
+body {
+    font-family: 'Microsoft Jhenghei Light', 'Century SchoolBook', 'Century Gothic', sans-serif;
+    max-width: 1280px;
+    background: rgb(191, 217, 214);
+    background: linear-gradient(90deg, rgba(191, 217, 214, 1) 7%, rgba(191, 217, 214, 0.6587009803921569) 50%, rgba(191, 217, 214, 1) 93%);
+}
+
+.header {
+    text-align: center;
+    background-color: #BFD9D6;
+    position: initial;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+.header .logo {
+    height: 200px;
+}
+
+.header .hour {
+    height: 200px;
+}
+
+.header .logo:hover {
+    cursor: pointer;
+}
+
+.content {
+    margin-left: 18%;
+}
+
+.content .descricao {
+    font-family: 'Bahnschrift Light SemiCondensed';
+    margin-top: 30px;
+    margin-left: 60px;
+    height: 50px;
+    width: 55%;
+    font-size: 40px;
+    color: #353745;
+    line-height: 50px;
+}
+
+.table {
+    color: white;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.table .head th {
+    background-color: #74858c;
+}
+
+.table .body tr:hover td {
+    background-color: #a0cab5;
+    transform: scale(1.2);
+    transition: 0.3s linear;
+}
+
+.table .body tr:nth-child(even) {
+    background-color: #57a793;
+}
+
+.table .body tr:nth-child(odd) {
+    color: #353745;
+    background-color: #a7d1c7;
+}
+
+.menu {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu .menu-lateral .li a {
+    display: flex;
+    flex-direction: column;
+    line-height: 80px;
+    font-size: 18px;
+    color: #353745;
+}
+
+.menu .menu-lateral .li a:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background-color: #BFD9D6;
+
+}
+
+.footer .foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 25px;
+}

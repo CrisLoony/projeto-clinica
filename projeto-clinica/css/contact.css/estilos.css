@@ -1,0 +1,136 @@
+body {
+    font-family: 'Microsoft Jhenghei Light', 'Century SchoolBook', 'Century Gothic', sans-serif;
+    max-width: 1280px;
+    background: rgb(191, 217, 214);
+    background: linear-gradient(90deg, rgba(191, 217, 214, 1) 7%, rgba(191, 217, 214, 0.6587009803921569) 50%, rgba(191, 217, 214, 1) 93%);
+}
+
+.header {
+    text-align: center;
+    background-color: #BFD9D6;
+    position: initial;
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
+.header .logo {
+    height: 200px;
+}
+
+.header .logo:hover {
+    cursor: pointer;
+}
+
+.content {
+    margin-left: 18%;
+}
+
+.content .descricao {
+    font-family: 'Bahnschrift Light SemiCondensed';
+    margin-top: 40px;
+    margin-left: 80px;
+    height: 50px;
+    width: 55%;
+    font-size: 50px;
+    color: #353745;
+    line-height: 50px;
+}
+
+.content .formulario {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    align-items: center;
+    max-width: 300px;
+}
+
+.google .map {
+    display: flex;
+    margin-left: 850px;
+    margin-top: -320px;
+}
+
+.menu {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu .menu-lateral .li a {
+    display: flex;
+    flex-direction: column;
+    line-height: 80px;
+    font-size: 18px;
+    color: #353745;
+}
+
+.menu .menu-lateral .li a:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+.menu-direito .telefone {
+    display: none;
+}
+
+.menu-direito .numero {
+    display: none;
+}
+
+.menu-direito {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-direito ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-direito .icone1:hover .telefone {
+    display: block;
+}
+
+.menu-direito .icone2:hover .numero {
+    display: block;
+}
+
+.menu-direito .icone1:hover {
+    transform: scale(1.2);
+    transition: 0.1s ease-in-out;
+}
+
+.menu-direito .icone2:hover {
+    transform: scale(1.3);
+    transition: 0s ease-in-out;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background-color: #BFD9D6;
+
+}
+
+.footer .foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 25px;
+}
